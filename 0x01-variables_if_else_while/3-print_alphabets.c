@@ -3,21 +3,24 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - print a to z in upper and lowercase
  *
  * Return: Always 0 (sucess)
  */
 int main(void)
 {
-for (char c = 'a'; c <= 'z'; c++)
+char lower = 'a';
+char upper = 'A';
+while (lower <= 'z')
 {
-putchar(c);
+putchar(lower);
+lower++;
 }
-for (char C = 'A'; C <= 'Z'; C++)
+while (upper <= 'Z')
 {
-putchar(C);
+putchar(upper);
+upper++;
 }
 putchar('\n');
 return (0);
 }
-
