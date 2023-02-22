@@ -1,10 +1,10 @@
 #ifndef MYHEADER_H
 #define MYHEADER_H
+#include <stdio.h>
 
 /**
  * print_alphabet - print lowercase alphabet
  */
-int putchar(int c);
 void print_alphabet(void)
 {
 char letter = 'a';
